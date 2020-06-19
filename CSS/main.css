@@ -1,0 +1,303 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+.container-fluid{
+    overflow-x: hidden;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+h2{
+    font-family:  'PT Serif', serif;
+    font-weight: bold;
+    font-size: 56pt;
+
+}
+
+.h3{
+    font-family: 'Roboto', sans-serif;
+    font-size: 24pt;
+    font-weight: 100;
+}
+
+p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 3vh; 
+    font-weight: 100;
+}
+
+.navbar-brand{
+    font-family: serif;
+    font-size: 40px!important;
+    font-weight: 700;
+    
+}
+i.fab {
+    display: inline-block;
+    border-radius: 60px;
+    box-shadow: 0px 0px 2px #888;
+    padding: 0.5em 0.6em;
+  
+  }
+.header_styles{
+    height: 140vh;
+    background-image: url(../images/background1.png);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    position: relative;
+    overflow: hidden;
+    
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height:100%;
+    background-color: #333;
+    opacity: .9;
+}
+
+.title{
+    font-family: 'Pt serif';
+    font-size: 10vh;
+    color: white;
+    margin-left: 2rem;
+    padding-bottom: 2rem;
+    font-weight: 700;
+}
+
+
+
+.inline{
+    display:inline-block;
+   margin-right:5px;
+}
+
+.dot-grid{
+position: absolute;
+height: 175pt;
+width:175pt;
+bottom:30vh;
+left:20vw;
+}
+
+.dish-img{
+    position: relative;
+    z-index: 3;
+    height: auto;
+    width: 100%;
+    display: block;
+    background-size: contain;
+}
+
+.icon-border{
+
+margin-left: 50%;
+margin-right: 49%;
+display: inline-block;
+border-radius: 60px;
+box-shadow: 0px 0px 2px #888;
+padding: 0.5em 0.6em;
+    
+}
+
+.purple-btn{
+    border-color: transparent;
+    border-radius: 3pt;
+    background-color: #6327EB;
+    color:white;
+    margin-left: 1rem;
+    font-family: 'roboto';
+    height: 48pt;
+    justify-content: center;
+    width: auto;
+    margin-bottom: 6vh;
+}
+
+.transparent-btn{
+    border-color: white;
+    background-color: transparent;
+    color:white;
+    border-radius: 3px;
+    margin-left: 1rem;
+  
+    height: 48pt;
+    width: auto;
+}
+.second-section{
+    background-color: #F9F7F2;
+    z-index: 1;
+    overflow: hidden;
+    color: #333;
+}
+.sect-2-image{
+    z-index: 4;
+    position: relative;
+    margin-left: 50px;
+}
+
+.dot-container{
+    
+    position: relative;
+    width:176px;
+    height:176px;
+    left:75vh;
+    top: 35vh;
+    z-index: 3;
+}
+
+.forky{
+    position: absolute;
+    bottom: 0pt;
+    left: -42.5px;
+    z-index: 5;
+}
+
+.menu-photo{
+    width:176px;
+    height: 176px;
+}
+
+.menu-title{
+    font-size: 8vh;
+
+}
+
+
+.menu-dot-grid{
+    position: absolute;
+    overflow: hidden;
+    top:50px;
+    right:0px;
+}
+
+.menu-description{
+    font-family: 'roboto';
+    font-size:14pt;
+    color:rgba(51, 51, 51, .5)
+}
+
+.border1{
+    border-right: 1px solid #eaeaea;
+    border-bottom: 1px solid #eaeaea;
+    padding: 20px;
+}
+.border2{
+    border-bottom: 1px solid #eaeaea;
+    padding: 20px;
+}
+.border3{
+    border-right: 1px solid #eaeaea;
+    padding: 20px;
+}
+
+.event-sub{
+    margin-top: 75px;
+    font-family: 'roboto';
+    font-weight: 100;
+    font-size: 24pt;
+    color: white;
+}
+.event-title{
+    
+    font-family:'PT serif';
+    font-weight: 700;
+    font-size: 8vh;
+    color:white;
+}
+
+
+.coffe-title{
+    font-family:'PT serif';
+    font-weight: 700;
+    font-size: 40pt;
+    color:rgb(51, 51, 51);
+}
+
+
+.carousel-control-next,
+.carousel-control-prev {
+    filter: invert(100%);
+}
+.coffe-dots{
+
+        
+    position: relative;
+    
+    
+    left: 80vw;
+    bottom: 18vh;
+    
+}
+
+.gallery{
+    margin-top: 15pt;
+    margin-bottom: 15pt;
+}
+
+.about-background{
+    background: linear-gradient(to bottom, #F9F7F2 64vh, #333 10vh);
+}
+.inside-about{
+    background-color: white;
+    margin-bottom: 12vh;
+    padding: 10vh;
+    
+}
+  
+.about-dot-grid{
+    
+    position: absolute;
+    right: 58vh;
+    bottom: 48vh;
+    
+}
+
+.press-brand{
+    font-family: 'PT serif';
+    font-size: 4vh;
+    font-weight: 600;
+}
+
+.chef{
+    font-family: 'PT serif';
+    font-weight: 700;
+    font-size: 4vh;
+}
+
+.gradient-space{
+    height: 10vh;
+ background: linear-gradient(to right, #333 7vh, white 7vh);
+}
+
+.rest-footer{
+    font-family: 'PT serif';
+    font-weight: bold;
+    font-size: 8vh;
+    color: white;
+    margin-top: 5vh;
+
+}
+.press-dots{
+    position: absolute;
+    right:44.5vh;
+    bottom: 1.5vh;
+  
+    
+}
+
+
+@media only screen and (max-width: 40em) { 
+
+  .column, .columns {
+    padding-left: 0rem;
+    padding-right: 0rem;
+
+  }
+}
